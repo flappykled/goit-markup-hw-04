@@ -157,29 +157,6 @@ a {
     padding-bottom: 47px;
 }
 
-.particular-icon-list {
-    display: flex;
-    gap: 30px;
-}
-
-.particular-icon-list:not(:last-child) {
-    margin-right: 30px;
-}
-
-.particular-icon-item {
-    width: calc((100%-90px)/4);
-    height: 215px;
-    margin-bottom: 30px;
-}
-
-.particular-icon-link {
-    height: 100%;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .particular-list {
     display: flex;
@@ -190,6 +167,19 @@ a {
     margin-right: 30px;
 }
 
+.particular-content {
+    background-color: #F5F4FA;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.particular-icon {
+}
 
 .particular-title {
     margin-bottom: var(--margin-bottom);
