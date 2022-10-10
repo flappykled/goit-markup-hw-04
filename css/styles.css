@@ -90,6 +90,28 @@ a {
     color: var(--bluebrand-clor);
 }
 
+.auth-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--discription-color);
+    
+}
+
+.auth-icon {
+    margin-right: 10px;
+    fill: var(--discription-color);
+    
+}
+
+.auth-link:hover,
+.auth-link:focus,
+.auth-link:hover .auth-icon,
+.auth-link:focus .auth-icon {
+    color: var(--bluebrand-clor);
+    fill: var(--bluebrand-clor);
+}
+
 .auth-nav {
   display: flex; 
   margin-left: auto; 
@@ -100,7 +122,7 @@ a {
 
 }
 
-.auth-nav .link {
+/* .auth-nav .link {
     color: var(--discription-color);
     font-weight: 500;
     font-size: 14px;
@@ -110,7 +132,7 @@ a {
 .auth-nav .link:hover,
 .auth-nav .link:focus {
     color: var(--bluebrand-clor);
-}
+} */
 
 
 .hero {
@@ -119,8 +141,8 @@ a {
     border-radius: 4px;
     border: 0;
 
-    background-color:#2F303A;
-    background-image: url(../images/bg.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+     url(../images/bg.jpg);
 }
 .hero-title {
     width: 696px;
@@ -486,6 +508,11 @@ a {
     
 }
 
+.all-button:hover,
+.all-button:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .main-button {
     color:var(--brand-color) ;
     background-color: #F5F4FA;
@@ -502,6 +529,8 @@ a {
 .button-item:not(:last-child) {
     margin-right: 8px;
 }
+
+
 
 
 .main-button:hover,
