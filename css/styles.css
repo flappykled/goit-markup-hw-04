@@ -557,7 +557,7 @@ a {
 
 .project-product {
     line-height: 30px;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .card-name {
@@ -565,6 +565,7 @@ a {
     text-align: start;
     border: 1px solid #EEEEEE;
     border-top: 0;
+    
 }
 
 .project-titel{
