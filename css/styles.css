@@ -142,6 +142,8 @@ a {
     padding: 200px 0;
     border-radius: 4px;
     border: 0;
+    margin: 0 auto;
+    max-width: 1600px;
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
      url(../images/bg.jpg);
@@ -221,6 +223,10 @@ a {
     line-height: 1.71;
     letter-spacing: 0.03;
     /* width: 270px; */
+}
+
+.work {
+    padding-bottom: 94px;
 }
 
 .work-title {
@@ -514,10 +520,6 @@ a {
     
 }
 
-/* .all-button:hover,
-.all-button:focus {
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 
 .main-button {
     color:var(--brand-color) ;
